@@ -9,6 +9,8 @@ author: PPJoin
 * content
 {:toc}
 
+安装完Docker后,可以安装`portainer`来进行管理,当然也还是要熟悉一下基本命令.
+
 ## 搜索所有centos镜像
 ```bash
 docker search centos
