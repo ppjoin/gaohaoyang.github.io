@@ -29,11 +29,13 @@ docker images
 ```bash
 docker rmi hidetarou2013/centos6-apache
 ```
-## 创建数据卷volume,名称为portainer_data,里面的文件一般在/var/lib/docker/volumes/,可以供容器挂载
+## 创建数据卷volume
+名称为`portainer_data`,里面的文件一般在`/var/lib/docker/volumes/`目录下,可以供容器挂载
 ```bash
 docker volume create portainer_data;
 ```
-## 从镜像创建容器(容器名centos 端口80,1013,55555,1194,8888,基础镜像hidetarou2013/centos6-apache)
+## 从镜像创建容器
+容器名`centos` 端口`80`,`1013`,`55555`,`1194`,`8888`,基础镜像`hidetarou2013/centos6-apache`
 ```bash
 docker run --name=centos -d -p 80:80 -p 1013:1013 -p 55555:55555 -p 1194:1194 -p 8888:8888 hidetarou2013/centos6-apache
 ```
@@ -41,7 +43,7 @@ docker run --name=centos -d -p 80:80 -p 1013:1013 -p 55555:55555 -p 1194:1194 -p
 ```bash
 docker ps -a
 ```
-## 进入某容器shell命令行
+## 进入某容器的命令行
 ```bash
 docker exec -it centos /bin/sh
 ```
