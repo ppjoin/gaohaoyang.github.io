@@ -9,9 +9,6 @@ author: PPJoin
 * content
 {:toc}
 
-Docker基础命令
-----------
-
 ## 搜索所有centos镜像
 ```bash
 docker search centos
