@@ -7,7 +7,7 @@
 
 # Site settings
 title: PPjoin
-brief-intro: Please Please join !
+brief-intro: Please Please Join !
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ppjoin.github.io" # the base hostname & protocol for your site
 
@@ -23,7 +23,7 @@ zhihu_username:
 linkedIn_username: 
 dribbble_username:
 
-description_footer: Please Please join !
+description_footer: Please Please Join !
 
 # comments
 # two ways to comment, only choose one, and use your own short name
