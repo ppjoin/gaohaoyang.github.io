@@ -24,6 +24,10 @@ docker pull hidetarou2013/centos6-apache
 ```bash
 docker images
 ```
+
+
+
+
 ## 删除某镜像
 ```bash
 docker rmi hidetarou2013/centos6-apache
