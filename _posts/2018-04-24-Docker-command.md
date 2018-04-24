@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Docker基础命令"
-categories: docker
-tags:  docker基础
+categories: Docker
+tags:  Docker基础
 author: PPJoin
 ---
 
