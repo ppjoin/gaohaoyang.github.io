@@ -37,9 +37,11 @@ docker run -d --name server_mysql5 --restart=always -v /docker/mysql/conf.d:/etc
 docker run -d --name server_nginx_php56 --restart=always -p 80:80 -p 443:443 -v nginx_etc:/etc/nginx -v /docker/nginx/wwwroot:/var/www/html germanramos/nginx-php-fpm:v5.6.21;
 ```
 
-## 小巧的 Alpine GUI 基础镜像，自带 novnc 网页视窗。
+## Alpine GUI 基础镜像
 
-novnc 的端口是5800，浏览器打开即可访问。作者还有 debian8 的镜像，相当不错：jlesage/baseimage-gui:debian-8-v3.2.2
+自带 novnc 网页视窗，novnc 的端口是5800，浏览器打开即可访问。
+
+作者还有 debian8 的镜像，相当不错：jlesage/baseimage-gui:debian-8-v3.2.2
 
 ```bash
 docker run --name vnc -p 5800:5800 -p 5900:5900 jlesage/baseimage-gui:alpine-3.5-glibc;
