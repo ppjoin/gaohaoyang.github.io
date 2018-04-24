@@ -9,8 +9,6 @@ author: PPJoin
 * content
 {:toc}
 
-安装完 Docker 后,可以安装 `portainer` 来进行管理,当然也还是要熟悉一下基本命令.
-
 ## 安装 portainer
 Docker 管理工具 -- WEB浏览器下管理Docker
 名称 `Portainer_docker_web_cp`，设置开机自动启动 , 挂载数据卷 `portainer_data` , 开放端口 `9001`
