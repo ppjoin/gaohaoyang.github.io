@@ -39,7 +39,7 @@ docker run -d --name server_nginx_php56 --restart=always -p 80:80 -p 443:443 -v 
 
 ## Alpine GUI 基础镜像
 
-自带 novnc 网页视窗，novnc 的端口是5800，浏览器打开即可访问。
+自带 novnc 网页视窗，novnc 的端口是 `5800`，浏览器打开即可访问。
 
 作者还有 debian8 的镜像，相当不错：jlesage/baseimage-gui:debian-8-v3.2.2
 
