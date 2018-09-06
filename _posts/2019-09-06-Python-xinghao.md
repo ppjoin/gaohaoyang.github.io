@@ -9,8 +9,10 @@ author: PPJoin
 * content
 {:toc}
 
-# A. 单星号（\*）：\*agrs
-将所有参数以元组(tuple)的形式导入：
+# A. 单星号
+
+将所有参数以元组 tuple 的形式导入。
+
 例如：
 
 ```python
@@ -25,8 +27,11 @@ def foo(param1, *param2):
 (2, 3, 4, 5)
 ```
 
-# B. 双星号（\*\*）：\*\*kwargs
-将参数以字典的形式导入
+# B. 双星号
+
+将所有参数以字典的形式导入.
+
+例如：
 
 ```python
 def bar(param1, **param2):
