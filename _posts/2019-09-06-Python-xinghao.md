@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Python笔记 - 参数中的星号*和双星号**"
+title:  "参数中的星号*和双星号**"
 categories: Python笔记
 tags:  Python参数
 author: PPJoin
