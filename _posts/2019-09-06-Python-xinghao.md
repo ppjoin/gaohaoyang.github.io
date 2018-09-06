@@ -21,12 +21,15 @@ def foo(param1, *param2):
         print param2
 ```
 
+执行：
 
-
-
-输出内容如下: 
 ```python
 >>> foo(1,2,3,4,5)
+```
+
+输出：
+
+```python
 1
 (2, 3, 4, 5)
 ```
@@ -42,9 +45,15 @@ def bar(param1, **param2):
         print param1
         print param2
 ```
-输出内容如下: 
+执行：
+
 ```python
 >>> bar(1,a=2,b=3)
+```
+
+输出：
+
+```python
 1
 {'a': 2, 'b': 3}
 ```
