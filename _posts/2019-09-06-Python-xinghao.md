@@ -27,7 +27,7 @@ def foo(param1, *param2):
 执行：
 
 ```python
->>> foo(1,2,3,4,5)
+foo(1,2,3,4,5)
 ```
 
 输出：
@@ -51,7 +51,7 @@ def bar(param1, **param2):
 执行：
 
 ```python
->>> bar(1,a=2,b=3)
+bar(1,a=2,b=3)
 ```
 
 输出：
