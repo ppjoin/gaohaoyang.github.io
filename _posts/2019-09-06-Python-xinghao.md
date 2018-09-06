@@ -21,6 +21,9 @@ def foo(param1, *param2):
     print param2
 ```
 
+
+
+
 执行：
 
 ```python
