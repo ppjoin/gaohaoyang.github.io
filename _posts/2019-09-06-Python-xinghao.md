@@ -17,8 +17,8 @@ author: PPJoin
 
 ```python
 def foo(param1, *param2):
-        print param1
-        print param2
+    print param1
+    print param2
 ```
 
 执行：
@@ -42,8 +42,8 @@ def foo(param1, *param2):
 
 ```python
 def bar(param1, **param2):
-        print param1
-        print param2
+    print param1
+    print param2
 ```
 执行：
 
