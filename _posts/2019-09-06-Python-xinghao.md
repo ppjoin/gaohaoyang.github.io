@@ -25,13 +25,11 @@ def foo(param1, *param2):
 
 
 输出内容如下: 
-```python
 '''
 >>> foo(1,2,3,4,5)
 1
 (2, 3, 4, 5)
 '''
-```
 
 ### B. 双星号
 
@@ -45,10 +43,8 @@ def bar(param1, **param2):
         print param2
 ```
 输出内容如下: 
-```python
 '''
 >>> bar(1,a=2,b=3)
 1
 {'a': 2, 'b': 3}
 '''
-```
